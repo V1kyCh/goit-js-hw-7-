@@ -1,0 +1,22 @@
+{
+  "name": "goit-js-hw-7-",
+  "version": "5.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx parcel src/index.html",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "v1ky",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.13.3",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-transformer-hbs": "^1.0.4",
+    "parsel-js": "^1.2.1"
+  }
+}
